@@ -2,6 +2,7 @@
 import { expect, Locator, Page } from "@playwright/test";
 export class HomePage { 
 
+    
     title: Locator;
     expectedUrl: Locator;
     constructor(page:Page){ 
